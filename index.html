@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>👁‍🗨Desafío Digimon</title>
+        <!--
+        Esto es un comentario de HTML. No es necesario que lo borres.
+        Si arriba, dentro de <title></title>, quieres un emoji, búscarlo en 
+        - https://www.w3schools.com/charsets/ref_emoji.asp
+        - https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+        Usa el número de columna "Dec", y súmale un "&#" al principio.
+        -->
+    </head>
+    <body>
+      
+        <header>
+            <h1>&#127183HOLA SOCIX ARTISTA</h1>
+        </header>
+      
+        <main>
+             <p>Oh! Vaya! Que sorpresa verte aquí!</p>
+            <p>Este sospechoso encuentro significa que te han retado a derramar todo tu talento artístico dibujando a un Digimon en la siguiente página.</p>
+            <p> Okey, entonces vale! No pierdas más el tiempo, a dibujar! </p>
+        </main>
+        
+        <main>
+            <p> PD: Cuando termines tu obra de arte, porfavor envíamelo por Whatsapp. Estaré esperando con grandes expectativas! </p>
+        </main>
+
+        <main>
+         <p> Cariñitos, tu fellow socia artista :)</p>
+        </main>
+        
+        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer - Después de la lectura, borrar este comentario -->
+        <footer>
+            <div></div>
+            <div></div>
+            <div id="next"></div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            // Esto es una línea de comentario en JAVASCRIPT
+            var palabras = ["yapo!", "ja!acepto!", "vamos!", "a dibujar!", "JA JA", "next", "éjale!", "si puedo!", "regio!", "tupendo"];
+            function setup() {
+                var p = random(palabras);
+                console.log(p);
+                 var p = random(palabras);
+                console.log(p);
+                createA("page.html", p).parent("next");
+
+                createImg('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7fa7520-f773-4c9e-b7a4-386fd678a899/d6g8xmg-7acb0f5a-6d67-477e-b523-a939a99145af.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E3ZmE3NTIwLWY3NzMtNGM5ZS1iN2E0LTM4NmZkNjc4YTg5OVwvZDZnOHhtZy03YWNiMGY1YS02ZDY3LTQ3N2UtYjUyMy1hOTM5YTk5MTQ1YWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Tdyj2Mif6pH7jgZxoJHm_X5o1ert5ZomF3_2NnBZgOU').addClass('monis');
+               
+               
+           
+            }
+            /* 
+            Esto también es un comentario en JAVASCRIPT
+            Se usa así para varias líneas de comentario
+            */
+        </script>
+    </body>
+</html>
